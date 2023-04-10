@@ -1,13 +1,17 @@
 export const GlobalStyles = {
     colors: {
-        neonblue: '#645cff',
-        parism: '#282566',
+        blueGem: '#403BA3',
+        freeSpeechBlue: '#504ACC',
+        neonBlue: '#645cff',
+        lightSlateBlue: '#837DFF',
+        portage: '#9C97FF',
+        parisM: '#282566',
         perano: '#a29dff',
         tangaroa: '#102a42',
-        slategrey: '#617d98',
-        aliceblue: '#f1f5f8',
+        slateGrey: '#617d98',
+        aliceBlue: '#f1f5f8',
         white: '#fff',
-        firebrick: '#BB2525',
-        wildwatermelon: '#FF6B6C',
+        fireBrick: '#BB2525',
+        wildWaterMelon: '#FF6B6C',
     },
 };

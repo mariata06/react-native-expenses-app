@@ -15,10 +15,10 @@ function ExpensesOverview() {
   return (
     <BottomTabs.Navigator 
       screenOptions={{
-        headerStyle: { backgroundColor: GlobalStyles.colors.neonblue },
+        headerStyle: { backgroundColor: GlobalStyles.colors.neonBlue },
         headerTintColor: 'white',
-        tabBarStyle: { backgroundColor: GlobalStyles.colors.neonblue },
-        tabBarActiveTintColor: GlobalStyles.colors.parism,
+        tabBarStyle: { backgroundColor: GlobalStyles.colors.neonBlue },
+        tabBarActiveTintColor: GlobalStyles.colors.parisM,
       }}
     >
       <BottomTabs.Screen 
