@@ -9,7 +9,7 @@ import { GlobalStyles } from './styles/styles';
 import { Ionicons } from '@expo/vector-icons';
 import IconButton from './components/IconButton';
 import { useNavigation } from '@react-navigation/native';
-import ExpensesContextProvider from './components/store/expenses-context';
+import ExpensesContextProvider from './store/expenses-context';
 
 const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
@@ -56,7 +56,7 @@ function ExpensesOverview() {
 export default function App() {
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
       <ExpensesContextProvider>
         <NavigationContainer>
           <Stack.Navigator screenOptions={{

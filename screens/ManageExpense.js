@@ -3,7 +3,8 @@ import { useContext, useLayoutEffect } from 'react';
 import { GlobalStyles } from '../styles/styles';
 import IconButton from '../components/IconButton';
 import Button from '../components/Button';
-import { ExpensesContext } from '../components/store/expenses-context';
+import { ExpensesContext } from '../store/expenses-context';
+import ExpenseForm from '../components/ExpenseForm';
 
 function ManageExpense({ route, navigation }) {
     const expensesCtx = useContext(ExpensesContext); 
@@ -51,6 +52,7 @@ function ManageExpense({ route, navigation }) {
 
     return  (
         <View style={styles.container}>
+            <ExpenseForm />
             <View style={styles.buttons}>
                 <Button style={styles.button} mode="flat" onPress={cancelHandler}>Cancel</Button>
                 <Button style={styles.button} onPress={confirmHandler}>{isEditing ? 'Update' : 'Add'}</Button>
